@@ -9,7 +9,6 @@
     "contember:start-admin": "yarn workspace @app/admin dev",
     "contember:build-admin": "tsc --project admin && yarn workspace @app/admin build \"$0\"",
     "contember:build-api": "tsc --project api",
-    "client:build": "tsc --project client",
     "client:generate": "bash ./scripts/generate-client.sh",
     "ts:build": "tsc --build",
     "ts:clean": "tsc --build --clean",

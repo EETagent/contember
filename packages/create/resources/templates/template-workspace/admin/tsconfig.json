@@ -1,6 +1,7 @@
 {
 	"extends": ["../tsconfig.settings.json"],
 	"compilerOptions": {
+		"moduleResolution": "Bundler",
 		"allowSyntheticDefaultImports": true,
 		"jsx": "react-jsx",
 		"lib": [
